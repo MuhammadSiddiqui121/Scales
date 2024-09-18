@@ -22,7 +22,7 @@ void snake(int x, int y) {
   } else { 
     fill(255, 0, 0);
   }
-  circle(x, y, 70, 80);
+  ellipse(x, y, 70, 80);
 }
 
 void greenscales( int x1, int y1) {
